@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Practice</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <h1>jQuery Practice</h1>
+
+    <h4>For Question 1:</h4>
+    <div id="sample1">
+      <p>This is a sample content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lectus justo, suscipit ac justo at, pretium eleifend leo. Praesent ipsum ante, elementum finibus gravida eu, tempor vitae mi. Sed molestie mauris nec eros finibus auctor. Integer non massa metus. Duis in tortor nec magna pellentesque dictum. Nunc tristique in sem ac hendrerit. Duis semper turpis fringilla urna rutrum vulputate.</p>
+
+      <p>Aliquam lobortis fermentum arcu ut dignissim. Vestibulum quis lorem risus. Quisque cursus, lorem vitae sagittis posuere, sem turpis rhoncus magna, a consectetur est nisl ac quam. Cras faucibus venenatis orci ultrices elementum. Nulla facilisi. Praesent libero tellus, egestas vel mauris at, aliquet ullamcorper odio. Aliquam auctor laoreet enim vel dictum. Fusce a neque condimentum, suscipit dolor vel, placerat arcu. Nunc vel sapien eleifend, dignissim ex nec, interdum velit. Duis elit lorem, malesuada et sodales ut, sodales quis mi.</p>
+    </div>
+
+    <hr>
+
+    <h4>For Question 2:</h4>
+      <h5>List of top Tech companies</h5>
+      <div>
+        <ul id="techCompanies">
+          <li class="red">Apple</li>
+          <li class="blue">Samsung</li>
+          <li class="blue">Foxconn</li>
+          <li class="red">Alphabet</li>
+          <li class="blue">Microsoft</li>
+          <li class="red">Huawei</li>
+          <li class="blue">Dell</li>
+          <li class="red">Hitachi</li>
+          <li class="blue">IBM</li>
+          <li class="blue">Sony</li>
+        </ul>
+
+        <div id="blueCompanies">
+          <p>How many of the companies above are colored blue? Display the result below.</p>
+        </div>
+      </div>
+
+    <hr>
+    <h4>For Question 3:</h4>
+    <h5>The Sum and Average of two numbers</h5>
+    <form id="adder" action="#" method="POST">
+      <div class="form-values">
+        <p>
+          First value<br />
+          <input type="text" class="firistValue" name="first-value" placeholder="First value" />
+        </p>
+        <p>
+          Second value<br />
+          <input type="text" class="secondValue" name="second-value" placeholder="Second value" />
+        </p>
+      </div>
+      <br />
+      <button id="submitButton" type="submit">Sum and Average</button>
+    </form>
+    <br />
+    <div id="sum">Result will be displayed here</div>
+    <br />
+
+
+
+    <h4>For Question 4:</h4>
+    <div class="container">
+      <h3 class="register">REGISTER</h3>
+      <div class="form-wrapper">
+        <div id="errorsDisplay"></div>
+        <div id="successDisplay"></div>
+        <form id="registration-form" action="#" method="POST">
+          <p>First name</p>
+          <input type="text" class="fname" name="first-name" placeholder="* First name" />
+          <p>Last name</p>
+          <input
+            type="text"
+            class="lname"
+            name="last-name"
+            placeholder="* Last name"
+          />
+          <p>Email address</p>
+          <input
+            type="email"
+            class="email"
+            name="email"
+            placeholder="* Email address"
+          />
+          <br />
+          <button id="submitButton" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+<!-- 
+    <h3>Question 4</h3>
+    <div class="container">
+      <h3 class="register">REGISTER</h3>
+      <div> 
+        <div class="errorMessage"></div>
+        <div class="succesMessage"></div>
+        <form id="registerForm" action="#" method="POST">
+          <p>
+            <label for="fname">First name:</label><br>
+            <input type="text" class="firstName" name="fname" placeholder="* first-value" ><br>
+          </p>
+          <p>
+            <label for="lname">Last name:</label><br>
+            <input type="text" class="lastName" name="lname" placeholder="* second-value"><br>
+          </p>
+          <p>
+            <label for="email">email:</label><br>
+            <input type="email" class="emailAddress" name="email" placeholder="* email"><br>
+          </p>
+          <p>
+            <button id="submitButton" type="submit">submit</button>
+          </p>
+        </form> 
+        </div>
+      </div> -->
+       
+
+    <script src="./js/jquery-3.6.1.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
